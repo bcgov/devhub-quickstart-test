@@ -5,7 +5,7 @@
 [![Analysis](https://github.com/bcgov/devhub-quickstart-test/actions/workflows/analysis.yml/badge.svg)](https://github.com/bcgov/devhub-quickstart-test/actions/workflows/analysis.yml)
 [![Scheduled](https://github.com/bcgov/devhub-quickstart-test/actions/workflows/scheduled.yml/badge.svg)](https://github.com/bcgov/devhub-quickstart-test/actions/workflows/scheduled.yml)
 
-# mah-openshift-quickstart-project
+# openshift-quickstart-project
 
 10/10 OpenShift QuickStart project
 
