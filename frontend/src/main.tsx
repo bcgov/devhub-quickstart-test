@@ -6,6 +6,7 @@ import { CssBaseline } from '@mui/material'
 import theme from './theme'
 import App from './App'
 
+// test
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
