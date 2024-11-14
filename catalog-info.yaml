@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mah-openshift-quickstart-project
+  title: Mah OpenShift QuickStart project
+  description: 10/10 OpenShift QuickStart project
+  annotations:
+    github.com/project-slug: bcgov/devhub-quickstart-test
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: FOR
+    bcgovpubcode.gov.bc.ca/product_name: a name
+    bcgovpubcode.gov.bc.ca/product_description: 10/10 OpenShift QuickStart project
+    bcgovpubcode.gov.bc.ca/product_acronym: a.n.
+    bcgovpubcode.gov.bc.ca/product_owner: It's me
+    bcgovpubcode.gov.bc.ca/hosting_platform: Private-Cloud-Openshift
+    backstage.io/source-template: template:default/quickstart-openshift
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:bcgov/developer-experience
