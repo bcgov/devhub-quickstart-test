@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 3env-openshift-quickstart-project
+  title: 3env OpenShift QuickStart project
+  description: OpenShift QuickStart project but with fill env config
+  annotations:
+    github.com/project-slug: bcgov/devhub-quickstart-test
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: CITZ
+    bcgovpubcode.gov.bc.ca/product_name: a name
+    bcgovpubcode.gov.bc.ca/product_description: OpenShift QuickStart project but with fill env config
+    bcgovpubcode.gov.bc.ca/product_acronym: a.n.
+    bcgovpubcode.gov.bc.ca/product_owner: It's me
+    bcgovpubcode.gov.bc.ca/hosting_platform: Private-Cloud-Openshift
+    backstage.io/source-template: template:default/quickstart-openshift
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:bcgov/devhub-wizards-default-team
