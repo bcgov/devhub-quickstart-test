@@ -26,7 +26,7 @@ const styles = {
 export default function App() {
   return (
     <Box sx={styles.container}>
-      <Header title={'QuickStart OpenShift'}>
+      <Header title={'My Java QuickStart OpenShift'}>
         {' '}
         <a href={'/'} target={'_self'}>
           <IconButton color="secondary">
