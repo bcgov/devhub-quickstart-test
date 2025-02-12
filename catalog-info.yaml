@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: quickstart-for-openshift---java-edition
+  title: QuickStart for OpenShift - Java Edition
+  description: It's my rapidly deployed Quickstart with a Java backend
+  annotations:
+    github.com/project-slug: /devhub-quickstart-test
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: TACS
+    bcgovpubcode.gov.bc.ca/product_description: It's my rapidly deployed Quickstart with a Java backend
+    bcgovpubcode.gov.bc.ca/hosting_platform: OpenShift private cloud
+    backstage.io/source-template: template:default/quickstart-openshift
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:bcgov/devhub-wizards-default-team
